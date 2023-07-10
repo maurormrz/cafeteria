@@ -1,0 +1,82 @@
+.body {
+    background-color: #ffc368;
+}
+
+.menubody {
+    background-color: #f1f1f1;
+}
+
+.cafebody {
+    background-color: #f1f1f1;
+}
+
+.navbar {
+    background-color: #0a1a22;
+}
+
+/*MAIN*/
+
+.image1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.image2 {
+    max-width: 100%;
+    height: auto;
+}
+
+/*PAGINAS*/
+
+.titulomenu {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: -15px;
+    color: #0a1a22;
+}
+
+.menucards {
+    padding: 20px 20px 20px 90px;
+}
+
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #642800;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #381600;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+
+#derechos {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 767px)
+{
+    .menucards {
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .how-img{order:-1;}
+}
