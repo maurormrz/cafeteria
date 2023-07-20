@@ -66,9 +66,10 @@ $background-color_3: #0a1a22;
 	.menucards {
 		padding: 20px 20px 20px 20px;
 	}
-}
-@media screen and (max-width:767px) {
 	.how-img {
 		order: -1;
+	}
+	.mb-3 {
+		list-style: none
 	}
 }
